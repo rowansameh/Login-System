@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--^--------------Title--------------->
+    <title>Login</title>
+
+    <!--^--------------Title's Icon--------------->
+    <link rel="icon" href="images/logo.jpg" />
+    <!--^--------------Fonts--------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+    <!--^------------css style------------>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body>
+    <main class="p-5">
+        <div class="container my-5 text-center shadow infoCard">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img class="w-75" src="images/login.jpg" alt="login">
+                </div>
+    
+                <div class="col-lg-6 m-auto p-5">
+                    <h1>Smart Login System</h1>
+        
+                    <input id="signinEmail" class="form-control my-3" placeholder="email@example.com" type="text">
+                    <div class="alert alert-primary px-3 text-start emailError d-none">
+                        <small>Inavalid email, please make sure you're following the rules:
+                            <ol>
+                                <li>your email looks like: email@example.com</li>
+                                <li>make sure it doesn't contain any spaces</li>
+                            </ol>
+                        </small>
+                    </div>
+                    <input id="signinPassword" class="form-control my-3" placeholder="Enter your password" type="password">
+                    <div class="alert alert-primary px-3 text-start passwordError d-none">
+                        <small>Inavalid password, please make sure you're following the rules:
+                            <ol>
+                                <li>your password is at least 8 characters</li>
+                                <li>your password should contain at least one upper case english letter and one lower case english letter</li>
+                                <li>your password should contain at least one one number and one special character like(/, *,!...)</li>
+                            </ol>
+                        </small>
+                    </div>
+        
+                    <button class="btn btn-bonita w-100 my-3 fw-bold loginBtn">Login</button>
+                    <p>Don't have an account? <a class="main-text-color toSignup" href="pages/signUp.html">Sign Up</a></p>
+        
+                </div>
+            </div>
+        </div>
+    
+    </main>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/mutualJs.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

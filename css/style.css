@@ -1,0 +1,58 @@
+:root {
+    --body-bgcolor : #f5c5df;
+    --color2: #e889a7;
+    --color3: #FFC6C6;
+    --color4: #FFEBD4;
+    --text-color: #434142;
+}
+
+/***********Global Style***********/
+body {
+    background-color: var(--body-bgcolor);
+    color: var(--text-color);
+    font-family: "Titillium Web", sans-serif;
+}
+
+.main-text-color {
+    color: var(--text-color);
+}
+
+/***********Login***********/
+.infoCard {
+    background-color: #fff;
+}
+
+.userInfo {
+    background-color: #000;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: var(--color3);
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgb(255, 198, 198, 0.25);
+}
+
+.btn-bonita {
+    color: var(--color2);
+    background-color: transparent;
+    background-image: none;
+    border-color: var(--color2);
+}
+
+.btn-bonita:hover{
+    color: #fff;
+    background-color: var(--color2);
+    border-color: var(--color2);
+}
+
+.infoCard a{
+    text-decoration: none;
+}
+
+.infoCard a:hover{
+    text-decoration: underline;
+}
+
+/* **** */
